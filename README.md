@@ -35,6 +35,10 @@ sisi Muse/VPS tanpa komputer user menyala, memakai wallet KHUSUS farming
 ## Status
 - 24 Nov 2026: paket dibuat dan diuji lokal (alamat valid, file 600, cek saldo
   jalan). Wallet uji lokal sudah dihapus.
-- Deploy ke Altare: lewat terminal web console Altare (SSH langsung dari VM
-  Muse terblokir proxy). Setelah deploy, alamat publik burner dilaporkan ke
-  user untuk diisi dana gas secukupnya.
+- DEPLOYED 24 Nov 2026 21:53 WIB ke VPS Altare (~/airdrop/farming/).
+  Alamat publik burner: CE4jU3LVonN4BFG3G4SwMhSRrp5VBaVUzQK5hsDkob3A
+  Saldo awal 0 SOL. File kunci /root/airdrop/farming/keys/solana_burner.json
+  mode 600, isinya tidak pernah ditampilkan.
+- Pelajaran deploy: terminal web Altare sangat lambat saat "heavy demand" dan
+  merusak kode panjang yang diketik/heredoc (baris hilang). Cara yang berhasil:
+  unduh script dari repo GitHub ini dengan curl, perintah pendek saja.
